@@ -1,11 +1,10 @@
 html,body{
-    background-image: url("https://wallpapercave.com/wp/wp8092399.jpg");
-    
-    margin: 0;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .container {
-  
+    
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -14,41 +13,66 @@ html,body{
 }
 
 .card   {
-    background-color: rgb(97, 135, 170);
-    border-style: solid;
-    border-width: 4px;
-    border-radius: 12px;
-    padding: 20px;
-    border-color: rgba(20, 2, 2, 0.3)
-    min-width: 30%;
-    min-height: 20%;
+    border-style: 1px solid ;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgba(0,0,0,0.);
+    background-color: rgb(255, 255, 255);
+    min-width: 40%;
+    min-height: 30%;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    font-family: lucida handwriting,   monospace;
-    box-shadow: 0 10px 20px;
+    -webkit-box-shadow: 2px 6px 28px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 2px 6px 28px 1px rgba(0,0,0,0.13);
+    box-shadow: 2px 6px 28px 1px rgba(0,0,0,0.13);
+    font-family: sans-serif;
+    
+}   
+
+H1{
+    font-size: 20px;
+    align-self: center;
+    padding: 20px;
     
 }
 
-H1{
-    border-bottom: 4px solid lightgray;
-    margin: 20px 40px;
-    padding: 10px;
+label{
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
-button{
-    background-color: lightblue;
-    border-radius: 10px solid rgb(106, 209, 185);
-    margin: 30px 100px ;
-    padding: 15px 5px;
+input{
+    
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-width: .5px;
+    background-color: rgb(255, 255, 255);
+
 }
 
 button:hover{
+    transform :scale(1.1);
+}    
+
+button{
+    background-color: rgb(55, 55, 245);
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    box-shadow: 2px 6px 28px 1px rgba(0,0,0,0.3);
     transform: scale(1.1);
+    font-family: sans-serif;
 }
 
-input{
-    border-radius: 30px;
-    border-color: lightblue;
-    width: 100%;
+
+
     
-}
+    
